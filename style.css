@@ -1,0 +1,18 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#catImages{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
+}
+
+#catImages img{
+    min-height: 400px;
+    min-width: 250px;
+    max-height: 600px;
+    max-width: 450px;
+}
